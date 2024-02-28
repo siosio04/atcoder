@@ -18,5 +18,5 @@ int main() {
 	ans[0]=0;
 	for(int i=1; i<=d; i++) ans[i]=ans[i-1]+b[i];
 	for(int i=1; i<=d; i++) cout<<ans[i]<<endl;
-	
 }
+
